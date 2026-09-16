@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div id="titulo">
+            <h1>Geek <span>Library</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><button class="button-6" role="button">inicio</button></a></li>
+                <li><a href="sobre.html"><button class="button-6" role="button">sobre</button></a></li>
+                <li><a href="produtos.html"><button class="button-6" role="button">produtos</button></a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <div id="conteudo">
+        <fieldset id="fild1">
+            <legend>Livros <span>Disponíveis</span></legend>
+
+            <div class="card">
+                <div class="cardBody">
+                    <img src="img/quadrinhoLigaJustica.jpg" class="imgBody">
+                </div>
+                <button data-modal="modal1">
+                    Saiba mais
+                </button>
+            </div>
+
+            <div class="card">
+                <div class="cardBody">
+                    <img src="img/batman.jpg" class="imgBody">
+                </div>
+                <button data-modal="modal2">
+                    Saiba mais
+                </button>
+            </div>
+
+            <div class="card">
+                <div class="cardBody">
+                    <img src="img/flashGordon.jpg" class="imgBody">
+                </div>
+                <button data-modal="modal3">
+                    Saiba mais
+                </button>
+            </div>
+
+        </fieldset>
+    </div>
+
+    <dialog id="modal1">
+        <h2>Liga da Justiça</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nam. Aut, quos quibusdam fugiat dignissimos
+            dicta dolorem accusantium maiores voluptatibus, sed quaerat recusandae mollitia. Laboriosam repudiandae
+            quisquam itaque delectus dolores.</p>
+        <button class="fecharModal">Fechar</button>
+    </dialog>
+
+    <dialog id="modal2">
+        <h2>Batman</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nam. Aut, quos quibusdam fugiat dignissimos
+            dicta dolorem accusantium maiores voluptatibus, sed quaerat recusandae mollitia. Laboriosam repudiandae
+            quisquam itaque delectus dolores.</p>
+        <button class="fecharModal">Fechar</button>
+    </dialog>
+
+    <dialog id="modal3">
+        <h2>Flash Gordon</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nam. Aut, quos quibusdam fugiat dignissimos
+            dicta dolorem accusantium maiores voluptatibus, sed quaerat recusandae mollitia. Laboriosam repudiandae
+            quisquam itaque delectus dolores.</p>
+        <button class="fecharModal">Fechar</button>
+    </dialog>
+    <script src="script.js"></script>
+    
+</body>
+</html>
