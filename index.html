@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="titulo">
+            <h1>Geek <span>Library</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><button class="button-6" role="button">inicio</button></a></li>
+                <li><a href="sobre.html"><button class="button-6" role="button">sobre</button></a></li>
+                <li><a href="produtos.html"><button class="button-6" role="button">produtos</button></a></li>
+                <li><button data-modal="modal5" class="button-6" role="button">Cadastra-se</button></li>
+                <li><button data-modal="modal6" class="button-6" role="button">Login</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="servico">
+        <div class="item">
+            <h3 class="service-title">Enviamos suas compras</h3>
+            <p class="service-text">entrega em todo o país!</p>
+        </div>
+        <div class="item">
+            <h3 class="service-title">Pague como quiser</h3>
+            <p class="service-text">Cartões de crédito ou à vista no Pix</p>
+        </div>
+        <div class="item">
+            <h3 class="service-title">Pague como quiser</h3>
+            <p class="service-text">Seus dados sempre protegidos</p>
+        </div>
+    </div>
+
+    <div>
+        <fieldset id="fild2">
+            <legend><span>Destaque</span></legend>
+            <div class="card">
+                <div class="cardBody">
+                    <img src="img/quadrinhoLigaJustica.jpg" class="imgBody">
+                </div>
+                <button data-modal="modal1">
+                    Saiba mais
+                </button>
+            </div>
+
+            <div class="card">
+                <div class="cardBody">
+                    <img src="img/batman.jpg" class="imgBody">
+                </div>
+                <button data-modal="modal2">
+                    Saiba mais
+                </button>
+            </div>
+
+            <div class="card">
+                <div class="cardBody">
+                    <img src="img/flashGordon.jpg" class="imgBody">
+                </div>
+                <button data-modal="modal3">
+                    Saiba mais
+                </button>
+            </div>
+        </fieldset>
+    </div>
+
+    <dialog id="modal1">
+        <h2>Liga da Justiça</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nam. Aut, quos quibusdam fugiat dignissimos
+            dicta dolorem accusantium maiores voluptatibus, sed quaerat recusandae mollitia. Laboriosam repudiandae
+            quisquam itaque delectus dolores.</p>
+        <button class="fecharModal">Fechar</button>
+    </dialog>
+
+    <dialog id="modal2">
+        <h2>Batman</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nam. Aut, quos quibusdam fugiat dignissimos
+            dicta dolorem accusantium maiores voluptatibus, sed quaerat recusandae mollitia. Laboriosam repudiandae
+            quisquam itaque delectus dolores.</p>
+        <button class="fecharModal">Fechar</button>
+    </dialog>
+
+    <dialog id="modal3">
+        <h2>Flash Gordon</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nam. Aut, quos quibusdam fugiat dignissimos
+            dicta dolorem accusantium maiores voluptatibus, sed quaerat recusandae mollitia. Laboriosam repudiandae
+            quisquam itaque delectus dolores.</p>
+        <button class="fecharModal">Fechar</button>
+    </dialog>
+    <dialog id="modal4">
+        <h2>Flash Gordon</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, nam. Aut, quos quibusdam fugiat dignissimos
+            dicta dolorem accusantium maiores voluptatibus, sed quaerat recusandae mollitia. Laboriosam repudiandae
+            quisquam itaque delectus dolores.</p>
+        <button class="fecharModal">Fechar</button>
+    </dialog>
+    <dialog id="modal5">
+        <form >
+            <label for="fname">Email:</label><br>
+            <input type="email" id="fname"><br>
+            <label for="lname">Senha:</label><br>
+            <input type="password" id="lname"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <button class="fecharModal">Fechar</button>
+    </dialog>
+    <dialog id="modal6">
+        <form >
+            <label for="fname">Primeiro Nome:</label><br>
+            <input type="text" id="fname"><br>
+            <label for="lname">Sobrenome:</label><br>
+            <input type="text" id="lname"><br>
+            <label for="lname">Email:</label><br>
+            <input type="email" id="lname"><br>
+            <label for="lname">Senha</label><br>
+            <input type="password" id="lname"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+        <button class="fecharModal">Fechar</button>
+    </dialog>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
